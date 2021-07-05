@@ -1,0 +1,14 @@
+@import '_variables.scss';
+@import '_typography.scss';
+
+body {
+    background-color: $brandOne-900;
+}
+
+section {
+    @apply py-16;
+}
+
+.wrapper {
+    @apply flex justify-between items-center max-w-7xl mx-auto py-6 px-10 lg:px-8
+}
