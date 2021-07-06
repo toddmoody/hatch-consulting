@@ -6,9 +6,15 @@ body {
 }
 
 section {
-    @apply py-16;
+    @apply flex w-full justify-center py-16;
+}
+
+.header__wrapper {
+    max-width: 92rem;
+    @apply flex justify-between items-center mx-auto py-6 px-10 lg:px-8;
 }
 
 .wrapper {
-    @apply flex justify-between items-center max-w-7xl mx-auto py-6 px-10 lg:px-8
+    max-width: 92rem;
+    @apply mx-auto py-6 px-10 lg:px-8;
 }

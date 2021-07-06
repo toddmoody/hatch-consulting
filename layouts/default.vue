@@ -2,7 +2,7 @@
   <div>
     <header>
       <div class="relative">
-        <div class="wrapper">
+        <div class="header__wrapper">
           <div class="flex w-0 flex-1">
             <nuxt-link to="/">
               <span class="sr-only">Hatch Consulting</span>
