@@ -1,5 +1,17 @@
 .cta {
-    img {
-        object-position: top;
+  img {
+    object-position: top;
+  }
+}
+
+.services {
+  .list-group {
+    list-style-image: url(../../static/bullet.png);
+    list-style-position: outside !important;
+    margin-top: 0.75rem;
+    margin-left: 1.85rem;
+    li {
+      @apply text-gray-400 mb-2;
     }
+  }
 }
