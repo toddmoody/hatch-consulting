@@ -1,11 +1,8 @@
 <template>
   <div class="wrapper">
-    <div>
-      <!-- <div class="absolute inset-0">
-        <div class="absolute inset-y-0 left-0 w-1/2 bg-gray-50"></div>
-      </div> -->
+    <section>
       <div class="mx-auto lg:grid lg:grid-cols-6 gap-4">
-        <div class="py-16 lg:col-span-2 lg:py-24">
+        <div class="lg:col-span-2">
           <div class="max-w-lg mx-auto">
             <p class="byline text-brandTwo-900 tracking-wider">
               We're here to help
@@ -61,7 +58,7 @@
             </div>
           </div>
         </div>
-        <div class="py-16 lg:col-span-4 lg:py-24">
+        <div class="lg:col-span-4">
           <div class="max-w-lg mx-auto lg:max-w-none">
             <form
               action="https://formspree.io/f/meqvzwwj"
@@ -162,7 +159,66 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    <section class="cta">
+      <div>
+        <div
+          class="
+            bg-brandFour-900
+            rounded-lg
+            shadow-xl
+            overflow-hidden
+            lg:grid lg:grid-cols-2
+            lg:gap-4
+          "
+        >
+          <div
+            class="
+              pt-10
+              pb-12
+              px-6
+              sm:pt-16
+              sm:px-16
+              lg:py-16
+              lg:pr-0
+              xl:py-20
+              xl:px-20
+            "
+          >
+            <div class="lg:self-center">
+              <h2 class="">
+                <span class="block text-gray-300">"Coming together is a</span>
+                <span class="block text-gray-300"
+                  >beginning, keeping together</span
+                >
+                <span class="block text-gray-300">is progress, working</span>
+                <span class="block text-gray-300">together is success."</span>
+              </h2>
+              <p>Henry Ford</p>
+              <nuxt-link :to="{ name: 'services' }" class="button outline"
+                >Services</nuxt-link
+              >
+              <nuxt-link :to="{ name: 'contact' }" class="button solid ml-3"
+                >Contact us</nuxt-link
+              >>
+            </div>
+          </div>
+          <div class="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
+            <img
+              class="
+                transform
+                translate-x-6 translate-y-6
+                rounded-md
+                sm:translate-x-16
+                lg:translate-y-20
+              "
+              src="~/assets/images/contact-cta.jpg"
+              alt="App screenshot"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
