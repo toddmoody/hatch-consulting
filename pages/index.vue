@@ -193,11 +193,9 @@
               xl:px-20
             "
           >
-            <div class="lg:self-center">
+            <div class="lg:self-center lg:max-w-sm">
               <h2 class="">
-                <span class="block text-gray-300">Find out more</span>
-                <span class="block text-gray-300">about Hatch Consulting</span>
-                <span class="block text-gray-300">today.</span>
+                <span class="block text-gray-300">Find out more about Hatch Consulting today.</span>
               </h2>
               <nuxt-link :to="{ name: 'services' }" class="button outline"
                 >Services</nuxt-link

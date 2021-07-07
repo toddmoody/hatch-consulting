@@ -7,10 +7,9 @@
             <p class="byline text-brandTwo-900 tracking-wider">
               We're here to help
             </p>
-            <h2 class="">Get in touch</h2>
+            <h1 class="">Get in touch</h1>
             <p class="mt-3">
-              Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat
-              massa dictumst amet. Sapien tortor lacus arcu.
+              If you think we could help you, give Jo a call or an email today.
             </p>
             <div class="mt-8">
               <div class="mt-6">
@@ -58,7 +57,7 @@
             </div>
           </div>
         </div>
-        <div class="lg:col-span-4">
+        <div class="lg:col-span-4 mt-16 lg:mt-0">
           <div class="max-w-lg mx-auto lg:max-w-none">
             <form
               action="https://formspree.io/f/meqvzwwj"
@@ -185,22 +184,11 @@
               xl:px-20
             "
           >
-            <div class="lg:self-center">
+            <div class="lg:self-center lg:max-w-sm">
               <h2 class="">
-                <span class="block text-gray-300">"Coming together is a</span>
-                <span class="block text-gray-300"
-                  >beginning, keeping together</span
-                >
-                <span class="block text-gray-300">is progress, working</span>
-                <span class="block text-gray-300">together is success."</span>
+                <span class="block text-gray-300">"Coming together is a beginning, keeping together is progress, working together is success."</span>
               </h2>
               <p>Henry Ford</p>
-              <nuxt-link :to="{ name: 'services' }" class="button outline"
-                >Services</nuxt-link
-              >
-              <nuxt-link :to="{ name: 'contact' }" class="button solid ml-3"
-                >Contact us</nuxt-link
-              >>
             </div>
           </div>
           <div class="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
