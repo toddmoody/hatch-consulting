@@ -1,9 +1,32 @@
+@font-face {
+    font-family: "Ernest";
+    src: url("../fonts/ernest-and-emily.otf");
+}
+
 * {
     font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
     font-size: 2.5rem;
+    font-weight: 700;
+    @apply py-3;
+}
+
+h2 {
+    font-size: 2.15rem;
+    font-weight: 700;
+    @apply py-3;
+}
+
+h3 {
+    font-size: 1.85rem;
+    font-weight: 700;
+    @apply py-3;
+}
+
+h4 {
+    font-size: 1.35rem;
     font-weight: 700;
     @apply py-3;
 }
@@ -16,16 +39,25 @@ p {
     font-size: 1.25rem;
 }
 
+.byline {
+    font-size: 1.7rem;
+    font-family: 'Ernest', sans-serif;
+}
+
 h1, h2, h3, h4, h5 {
     @apply text-gray-300;
 }
 
 p, span {
-    @apply text-gray-300;
+    @apply text-gray-400;
 }
 
 a {
-    @apply text-gray-300 hover:text-white;
+    transition: ease-in-out 0.2s;
+    @apply text-gray-400;
+    &:hover {
+        color: white;
+    }
 }
 
 .nuxt-link-exact-active {
