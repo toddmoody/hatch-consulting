@@ -18,7 +18,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
-    ]
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -27,8 +27,10 @@ export default {
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+  plugins: [{
+    src: '~plugins/vue-scrollmagic.js',
+    ssr: false
+  }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -38,7 +40,17 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
+    'nuxt-gsap-module'
   ],
+
+  gsap: {
+    extraPlugins: {
+      scrollTo: true,
+      timelineMax: true,
+      tweeMax: true,
+      scrollTrigger: true
+    }
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

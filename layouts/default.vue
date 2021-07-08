@@ -207,9 +207,12 @@
         </div>
       </div>
     </header>
-    <Nuxt />
+    <!-- <transition name="fade"> -->
+    <transition name="slide" mode="out-in">
+      <Nuxt />
+    </transition>
     <footer class="py-16">
-      <div>
+      <div class="wrapper">
         <nav
           class="-mx-5 -my-2 flex flex-wrap justify-center"
           aria-label="Footer"
@@ -285,7 +288,8 @@
           </a>
         </div>
         <p class="mt-8 text-center text-base text-gray-400">
-          &copy; {{ new Date().getFullYear() }} Hatch Consulting Ltd. All rights reserved.
+          &copy; {{ new Date().getFullYear() }} Hatch Consulting Ltd. All rights
+          reserved.
         </p>
       </div>
     </footer>
@@ -304,4 +308,13 @@ export default {
 
 
 <style>
+.slide-enter-active,
+.slide-leave-active {
+  transition: opacity 1s, transform 1s;
+}
+.slide-enter,
+.slide-leave-to {
+  opacity: 0;
+  transform: translateY(4%);
+}
 </style>
