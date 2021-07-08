@@ -315,6 +315,6 @@ export default {
 .slide-enter,
 .slide-leave-to {
   opacity: 0;
-  transform: translateY(4%);
+  transform: translateY(1%);
 }
 </style>

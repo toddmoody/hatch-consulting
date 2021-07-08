@@ -3,19 +3,14 @@
     <div class="content">
       <section class="flex-col">
         <div class="max-w-5xl mx-auto text-center mb-16">
-          <h1 class="box">The Cost and Project Management Experts</h1>
+          <h1>The Cost and Project Management Experts</h1>
           <p class="statement">
             Providing practical and professional advice for the success of your
             organisation.
           </p>
         </div>
-        <div class="bcg-parallax shadow-xl rounded-lg">
-          <div class="bcg">
-            <!-- <img
-                class="w"
-                src="~assets/images/home-banner.jpg"
-                alt="People working on laptops"
-              /> -->
+        <div class="bcg-parallax box rounded-lg opacity-25">
+          <div class="bcg shadow-xl">
           </div>
         </div>
       </section>
@@ -76,8 +71,7 @@
                 </div>
                 <h4 class="mt-3">Collaboration</h4>
                 <p>
-                  Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
-                  Et magna sit morbi lobortis.
+                  We collaborate with you throughout the process to ensure the best possible end-result for all project stakeholders.
                 </p>
               </div>
             </div>
@@ -118,8 +112,7 @@
                 </div>
                 <h4 class="mt-3">Communication</h4>
                 <p>
-                  Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
-                  Et magna sit morbi lobortis.
+                  We all know communication is key and we can ensure you receive best-in-class communication every step of the way.
                 </p>
               </div>
             </div>
@@ -168,8 +161,7 @@
                 </div>
                 <h4 class="mt-3">Clear strategy</h4>
                 <p>
-                  Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
-                  Et magna sit morbi lobortis.
+                  We have been refining out strategy across the last 15 years. We have a proven track record of success, so give us a try today!
                 </p>
               </div>
             </div>
@@ -242,14 +234,14 @@ export default {
   methods: {
     startAnimations() {
       const gsap = this.$gsap;
-      gsap.to(".box", { duration: 1, color: "red" });
+      gsap.to(".box", { duration: 5, opacity: "1" });
 
       const slideParallaxScene = this.$scrollmagic.scene({
         triggerElement: '.bcg-parallax',
         triggerHoook: 1,
-        duration: '200%'
+        duration: '100%'
       })
-      .setTween(TweenMax.from('.bcg', 1, {y: '-30%', ease:Power0.easeNone } ))
+      .setTween(TweenMax.from('.bcg', 1, {y: '-28%', ease:Power0.easeNone } ))
 
       this.$scrollmagic.addScene(slideParallaxScene)
 
@@ -265,7 +257,7 @@ export default {
 .bcg-parallax {
   position: relative;
   overflow: hidden;
-  padding: 235px 0;
+  min-height: 450px;
   .bcg {
     position: absolute;
     background-image: url("../assets/images/home-banner.jpg");
@@ -273,7 +265,7 @@ export default {
     background-position: center top;
     background-repeat: no-repeat;
     width: 100%;
-    height: 125%;
+    height: 130%;
     top: 0;
     z-index: 1;
     // opacity: 0.7;
