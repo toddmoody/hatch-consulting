@@ -238,7 +238,7 @@ export default {
 
       const slideParallaxScene = this.$scrollmagic.scene({
         triggerElement: '.bcg-parallax',
-        triggerHoook: 1,
+        triggerHook: 1,
         duration: '100%'
       })
       .setTween(TweenMax.from('.bcg', 1, {y: '-28%', ease:Power0.easeNone } ))
