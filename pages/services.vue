@@ -81,7 +81,7 @@
             <h4 class="ml-9 p-0 m-0">Project management</h4>
             <ul class="list-group">
               <li>
-                <p class="ml-1">Project Feasibility studies</p>
+                <p class="ml-1">Project feasibility studies</p>
               </li>
               <li>
                 <p class="ml-1">Programme and project management</p>
@@ -141,7 +141,7 @@
               <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
               <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
             </svg>
-            <h4 class="ml-9 p-0 m-0">End-to-end Project Management services</h4>
+            <h4 class="ml-9 p-0 m-0">End-to-end project management services</h4>
           </dt>
         </div>
 

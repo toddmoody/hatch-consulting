@@ -161,7 +161,7 @@
                 </div>
                 <h4 class="mt-3">Clear strategy</h4>
                 <p>
-                  We have been refining out strategy across the last 15 years. We have a proven track record of success, so give us a try today!
+                  We have been refining our strategy across the last 15 years. We have a proven track record of success, so give us a try today!
                 </p>
               </div>
             </div>
