@@ -218,7 +218,7 @@
                   sm:translate-x-16
                   lg:translate-y-20
                 "
-                src="~/assets/images/index-cta.jpg"
+                src="~/assets/images/index-alt.jpg"
                 alt="App screenshot"
               />
             </div>

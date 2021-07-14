@@ -200,7 +200,7 @@
                 sm:translate-x-16
                 lg:translate-y-20
               "
-              src="~/assets/images/contact-cta.jpg"
+              src="~/assets/images/contact-cta-alt.jpg"
               alt="App screenshot"
             />
           </div>
